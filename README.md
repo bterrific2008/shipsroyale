@@ -1,2 +1,2 @@
 # shipsroyale
-Two idiots working on the Game of Battleship. Yay!
+Early attempt at making a battleship game during junior year of high school.
