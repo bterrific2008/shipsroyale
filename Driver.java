@@ -16,6 +16,7 @@ public class Driver {
 		Dimension preferredDimension = new Dimension(700, 700);
 		panel.setPreferredSize(preferredDimension);
 		
+		frame.setResizable(true);
 		frame.add(panel);
 		frame.pack();
 		frame.setVisible(true);
