@@ -5,6 +5,7 @@ import javax.swing.JPanel;
 
 public class BoardPanel extends JPanel{
 	public BoardPanel() {};
+	public int margin = 10;
 	
 	@Override
 	public void paint(Graphics g) {
@@ -15,6 +16,12 @@ public class BoardPanel extends JPanel{
 	}
 	
 	private void makeGrid(int width, int height, Graphics g) {
-		g.drawRect(0, 0, width, height);;
+		int xblock = (width-(2*margin))/10;
+		int yblock = height/10;
+		
+		for(int w = margin; w <= width; w = w+xblock) {
+			g.drawLine(w, margin, w, height-margin);
+			g.drawLine(margin, w, width-margin, w);
+		}
 	}
 }

@@ -13,7 +13,7 @@ public class Driver {
 		JFrame frame = new JFrame();
 		JPanel panel = new BoardPanel();
 		
-		Dimension preferredDimension = new Dimension(1000, 1000);
+		Dimension preferredDimension = new Dimension(700, 700);
 		panel.setPreferredSize(preferredDimension);
 		
 		frame.add(panel);
