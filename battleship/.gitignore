@@ -1,2 +1,5 @@
 /Battleship.class
 /Ship.class
+/ShipSection.class
+/Ship$Directions.class
+/Directions.class
