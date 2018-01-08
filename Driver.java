@@ -1,3 +1,4 @@
+import java.awt.Dimension;
 
 import java.awt.Dimension;
 
@@ -16,10 +17,14 @@ public class Driver {
 		
 		Dimension preferredDimension = new Dimension(1000, 1000);
 		panel.setPreferredSize(preferredDimension);
-		
+				
+		frame.setResizable(true);
 		frame.add(panel);
 		frame.pack();
 		frame.setVisible(true);
 	}
 	
 }
+
+	
+
