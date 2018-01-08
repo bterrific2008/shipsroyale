@@ -29,7 +29,12 @@ public class BoardPanel extends JPanel{
 		makeGrid(width, height, g);
 	}
 	
+<<<<<<< HEAD
 	private void makeGrid(int width, int height, Graphics g) {
 		g.drawRect(0, 0, width, height);;
 	}
+=======
+	
+	
+>>>>>>> refs/remotes/origin/master
 }
