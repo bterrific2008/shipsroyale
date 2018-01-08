@@ -17,10 +17,14 @@ public class Driver {
 		JPanel panel = new BoardPanel();
 		
 <<<<<<< HEAD
+<<<<<<< HEAD
 		
 		
 		
 		Dimension preferredDimension = new Dimension(1000, 1000);
+=======
+		Dimension preferredDimension = new Dimension(700, 700);
+>>>>>>> GUI
 		panel.setPreferredSize(preferredDimension);
 		frame.setResizable(true);
 =======

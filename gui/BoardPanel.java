@@ -1,7 +1,9 @@
 package gui;
 
+import java.awt.BasicStroke;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
+<<<<<<< HEAD
 
 import javax.swing.JPanel;
 
@@ -21,6 +23,18 @@ public class BoardPanel extends JPanel{
 			System.out.println(s.getX()+" "+s.getY());
 		}
 	};
+=======
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
+
+import javax.swing.JPanel;
+
+@SuppressWarnings("serial")
+public class BoardPanel extends JPanel implements MouseListener{
+	public BoardPanel() {};
+	public int margin = 10;
+	
+>>>>>>> GUI
 	
 	@Override
 	public void paint(Graphics g) {
@@ -31,7 +45,44 @@ public class BoardPanel extends JPanel{
 	
 <<<<<<< HEAD
 	private void makeGrid(int width, int height, Graphics g) {
-		g.drawRect(0, 0, width, height);;
+		Graphics2D g2 = (Graphics2D) g;
+		int block = (width-(2*margin))/10;	//each individual brick
+		g2.setStroke(new BasicStroke(3));
+		
+		for(int w = margin; w <= width; w = w+block) {
+			g2.drawLine(w, margin, w, height-margin);
+			g2.drawLine(margin, w, width-margin, w);
+		}
+	}
+
+	@Override
+	public void mouseClicked(MouseEvent e) {
+		int x = e.getX();
+		int y = e.getY();
+		
+	}
+
+	@Override
+	public void mouseExited(MouseEvent arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void mousePressed(MouseEvent arg0) {
+		
+	}
+
+	@Override
+	public void mouseReleased(MouseEvent arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void mouseEntered(MouseEvent arg0) {
+		// TODO Auto-generated method stub
+		
 	}
 =======
 	
