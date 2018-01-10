@@ -20,6 +20,7 @@ public class BoardPanel extends JPanel implements MouseListener{
 		int height = this.getHeight();		//height of board game panel
 		
 		makeGrid(width, height, g);
+
 	}
 	
 	private void makeGrid(int width, int height, Graphics g) {
@@ -35,8 +36,8 @@ public class BoardPanel extends JPanel implements MouseListener{
 
 	@Override
 	public void mouseClicked(MouseEvent e) {
-		int x = e.getX();
-		int y = e.getY();
+		System.out.println("x: "+e.getX()+", y: "+e.getY());
+		
 		
 	}
 
