@@ -7,7 +7,7 @@ import javax.swing.JPanel;
 
 import battleship.Ship;
 //import battleship.ShipSection;
-import battleship.Ship.Directions;
+//import battleship.Ship.Directions;
 
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
