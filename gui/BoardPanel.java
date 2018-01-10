@@ -1,6 +1,4 @@
 package gui;
-
-<<<<<<< HEAD
 import java.awt.BasicStroke;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
@@ -8,13 +6,12 @@ import java.awt.Graphics2D;
 import javax.swing.JPanel;
 
 import battleship.Ship;
-import battleship.ShipSection;
+//import battleship.ShipSection;
 import battleship.Ship.Directions;
 
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 
-import javax.swing.JPanel;
 
 @SuppressWarnings("serial")
 public class BoardPanel extends JPanel implements MouseListener{
@@ -70,10 +67,4 @@ public class BoardPanel extends JPanel implements MouseListener{
 
 	}
 
-=======
-import javax.swing.JPanel;
-
-public class BoardPanel extends JPanel{
-	
->>>>>>> 751a488490a6af4b7c92f4bb867ff8e4088fef58
 }
