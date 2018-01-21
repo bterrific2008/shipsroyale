@@ -16,18 +16,9 @@ public class Driver {
 		JFrame frame = new JFrame();
 		JPanel panel = new BoardPanel();
 		
-<<<<<<< HEAD
-		
-		
-		
 		Dimension preferredDimension = new Dimension(1000, 1000);
 		panel.setPreferredSize(preferredDimension);
 		frame.setResizable(true);
-=======
-		Dimension preferredDimension = new Dimension(1000, 1000);
-		panel.setPreferredSize(preferredDimension);
-		
->>>>>>> refs/remotes/origin/master
 		frame.add(panel);
 		frame.pack();
 		frame.setVisible(true);
